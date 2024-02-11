@@ -1,23 +1,23 @@
-TFTP Server for Networking Labs
+TFTP Service for Networking Labs
 ================================
 
-A simple TFTP server for networking labs. It is based on the
+A simple TFTP service for networking labs. It is based on the
 [pghalliday-docker/tftp][pghalliday-docker/tftp] project.
 
-The server is configured for read-only access.
+The service is configured for read-only access.
 
 [pghalliday-docker/tftp]: https://github.com/pghalliday-docker/tftp
 
 Basic Usage
 -----------
 
-Start the server:
+Start the service:
 
 ```sh
 docker compose up --detach
 ```
 
-Stop the server:
+Stop the service:
 
 ```sh
 docker compose down

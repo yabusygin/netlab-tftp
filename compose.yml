@@ -1,3 +1,4 @@
+name: netlab-tftp-service
 services:
   tftp:
     image: pghalliday/tftp@sha256:59f843a93d62ac6e2fa475ee3d1a3786464fe5ea0334e6f1ea79bdec837f09fa

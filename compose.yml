@@ -9,7 +9,4 @@ services:
       - type: bind
         source: ./data
         target: /var/tftpboot
-    ports:
-      - protocol: udp
-        published: 69
-        target: 69
+    network_mode: host  # Allows TFTP data transfers on 127.0.0.1.
